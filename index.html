@@ -1,0 +1,67 @@
+<!--
+Codo a codo
+Full Stack Java
+Comisión 24115
+Grupo 23
+Trabajo Práctico Front End
+
+Fecha: 24/04/24
+Última actalización: 03/06/24
+
+*Página de inicio bienvenida con validacion de datos al completar los campos correspondientes
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+    <title>Inicio</title>
+</head>
+<body>
+
+    <header>
+
+        <h1 class="animate__animated animate__backInRight">¡BIENVENIDO A VIVERO DEL SUR!</h1>
+        
+    </header>
+    
+    <main>
+        <h5 class="animate__animated animate__shakeY">¡Te regalamos el envío en tu primera compra!</h5>
+    </main>
+
+    <footer>
+
+        <form id="registro">
+            <a>Registro</a>
+            <br>
+            <br>
+            Email: <input type ="email" name = "email" size ="25" placeholder="Campo obligatorio" id ="correo" >
+            <br>
+            <br>
+            Clave: <input type="password" name="clave" size="25" placeholder="Campo obligatorio" id = "clave">
+            <br>
+            <br>
+
+            <input type = "submit" value = "Enviar" id = "enviar">
+
+            <input type = "reset" value = "Borrar">
+            <br>
+            <h7 id="cartel"></h7>
+        </form>
+
+        
+    </footer>
+    <script src="JS/index.js"></script>
+
+</body>
+</html>
+
+

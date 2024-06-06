@@ -1,0 +1,111 @@
+
+/*
+Codo a codo
+Full Stack Java
+Comisión 24115
+Grupo 23
+Trabajo Práctico Front End
+
+Fecha: 27/05/24
+Última actalización: 25/04/24
+
+
+*/
+
+
+h1{
+
+    color: forestgreen;
+    text-align: center;
+    font-size: 70px;
+    font-family: cursive;
+}
+
+h2{
+    color:sienna;
+}
+
+h3{
+    color:darkslateblue
+}
+
+h4{
+    color: forestgreen;
+    text-align: center;
+}
+
+
+h5{
+    color: sienna;
+    text-align: center;
+    font-size: 70px;
+}
+
+h6{
+    color: blue;
+    text-align: center;
+    font-size: 70px;
+}
+
+h7{
+    color: red;
+    text-align: center;
+    font-size: 15px;
+}
+p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#4d5656;
+    padding: 3%;
+}
+
+ul{
+    color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3%;
+}
+
+
+
+header{
+    background-color: #58d68d;
+}
+
+section{
+    background-color:mediumseagreen;
+    border-radius: 5px;
+}
+
+section:first-of-type{
+    background-color:#d0ece7;
+    border: 2px solid #4d5656;
+}
+
+section:last-of-type {
+    background-color:#7bb5a3;
+    border: 2px solid #4d5656;
+    margin: 20px;
+
+}
+
+
+.container {
+    background:#7bb5a3;
+    display: flex;
+    justify-content: space-around;
+    row-gap:normal;
+    column-gap: normal;
+}
+
+footer{
+    padding: 3%;
+}
+
+form{
+    text-align: center;
+    background-color: #58d68d;
+}
+
+nav{
+    margin: 20px;
+}

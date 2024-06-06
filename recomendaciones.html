@@ -1,0 +1,93 @@
+<!--
+Codo a codo
+Full Stack Java
+Comisión 24115
+Grupo 23
+Trabajo Práctico Front End
+
+Fecha: 27/05/24
+Última actalización: 03/06/24
+
+*Página para el uso de la Api y recomendaciones del sitio web
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/recomendaciones.css">
+    
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <h1>Recomendaciones de Vivero del Sur según el clima</h1>
+        <form>
+            <h4>Seleccione una provincia: </h4>
+            <select name="provincias" id="provincia">
+                <option id ="1" value="Buenos%20Aires">Buenos Aires</option>
+                <option id ="2" value="Capital%20Federal">Capital Federal</option> <!-- no funciona -->
+                <option id ="3" value="Catamarca">Catamarca</option>
+                <option id ="4" value="Chaco">Chaco</option> <!-- no funciona -->
+                <option id ="5" value="Chubut">Chubut</option> <!-- no funciona -->
+                <option id ="6" value="Córdoba">Córdoba</option>
+                <option id ="7" value="Corrientes">Corrientes</option>
+                <option id ="8" value="Entre%20Ríos">Entre Ríos</option> <!-- no funciona -->
+                <option id ="9" value="Formosa">Formosa</option>
+                <option id ="10" value="Jujuy">Jujuy</option> <!-- no funciona -->
+                <option id ="11" value="La%20Pampa">La Pampa</option>
+                <option id ="12" value="La%20Rioja">La Rioja</option>
+                <option id ="13" value="Mendoza">Mendoza</option>
+                <option id ="14" value="Misiones">Misiones</option>
+                <option id ="15" value="Neuquén">Neuquén</option>
+                <option id ="16" value="Río%20Negro">Río Negro</option> <!-- no funciona -->
+                <option id ="17" value="Salta">Salta</option>
+                <option id ="18" value="San%20Juan">San Juan</option>
+                <option id ="19" value="San%20Luis">San Luis</option>
+                <option id ="20" value="Santa%20Cruz">Santa Cruz</option>
+                <option id ="21" value="Santa%20Fe">Santa Fe</option>
+                <option id ="22" value="Santiago%20del%20Estero">Santiago del Estero</option>
+                <option id ="23" value="Tierra%20del%20Fuego">Tierra del Fuego</option> <!-- no funciona -->
+                <option id ="24" value="Tucumán">Tucumán</option>
+
+                
+            </select>
+            <input type="button" id="clima" value="Buscar">
+        </form>
+        
+    </header>
+
+    <section>
+        <h3 id ="descripcion"></h3>
+        <p id ="pdescripcion"></p>
+    </section>
+
+    <section>   
+        <h3 id ="temperatura"></h3>
+        <h3 id ="tempmin"></h3>
+        <h3 id ="tempmax"></h3>
+        <p id = "ptemperatura"></p>
+    </section>
+
+    <section>    
+        <h3 id = "vientos"></h3>
+        <p id = "pvientos"></p>
+    </section>
+
+    <section>
+        <h3 id = "humedad"></h3>
+        <p id = "phumedad"></p>
+    </section>
+
+    <script src="JS/clima.js"></script>
+
+</body>
+</html>
+
+

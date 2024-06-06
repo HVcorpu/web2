@@ -1,0 +1,147 @@
+<!--
+Codo a codo
+Full Stack Java
+Comisión 24115
+Grupo 23
+Trabajo Práctico Front End
+
+Fecha: 25/04/24
+Última actalización: 03/06/24
+
+*Página principal
+-->
+        
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+
+    <title> Página principal </title>
+</head>
+
+
+<body>
+
+    <header>
+            <h1>
+                VIVERO DEL SUR
+            </h1>
+           
+    </header>
+
+    <nav>
+         <h2>Navegador</h2>
+         <br>
+         <button onclick="recomendaciones()">Ir a las recomendaciones</button>
+
+    <script>
+        function recomendaciones() {
+            window.location.href = "recomendaciones.html";
+        }
+    </script>
+    </nav>
+    <main>
+
+        <aside>
+            <section>
+                <h3> Acceso</h3>
+            </section>
+            <section>
+                <h2>El vivero</h2>
+                <P>
+                En Vivero del sur encontrará una gran variedad de productos para parques, jardines y huertos orgánicos, abasteciendo las necesidades de nuestros clientes. 
+                También, brindamos asesoramiento basado en nuestra experiencia en el mercado para encontrar soluciones prácticas a su consulta.
+                </P>
+
+            </section>
+        
+            <section>
+                <h2>Nosotros</h2>
+                <P>
+                    Viveros del sur nació en el año 2001 en Lanús Oeste, como un pequeño emprendimiento que fué creciendo y sumando experiencia
+                    a lo largo de los años con las necesidades y demandas de nuestros clientes. Actualmente, ya consolidados como uno de los 
+                    viveros más importantes de zona sur, recibimos a nuestros clientes con una gran cantidad de ofertas de productos y 
+                    soluciones que nos permiten ser el nexo entre ellos y la naturaleza, porque Viveros del sur es sinónimo de convivencia con la naturaleza.
+                </P>
+            </section>
+
+             <section>
+                <h2> Nuestros productos </h2>
+                <ul>
+                    <li>Semillas orgánicas</li>
+                        <ul>
+                            <li>Siembra todo el año.</li>
+                            <li>Siembra de otoño/invierno.</li>
+                            <li>Siembra de primavera/verano.</li>
+                        </ul>
+                    
+                    
+                    <li>Plantines orgánicos</dt>
+                        <ul>
+                            <li>Plantines todo el año.</li>
+                            <li>Plantines de otoño/invierno.</li>
+                            <li>Plantines de primavera/verano.</li>
+                        </ul>
+
+                    <li>Insumos para el huerto o jardín</li>
+                        <ul>
+                            <li>Macetas y composteras.</li>
+                            <li>Sustratos.</li>
+                            <li>Mejoradores de suelo.</li>
+                        </ul>
+                    
+                     <li>Herramientas</li>
+                        <ul>
+                            <li>De corte.</li>
+                            <li>De jardinería.</li>
+                            <li>Pulverización.</li>
+                            <li>Seguridad e indumentaria.</li>
+                        </ul>
+                    </ul>
+                
+            </section>
+            
+            <section>
+                <h3>Enlaces importantes:</h3>
+                <a href = https://www.argentina.gob.ar/inta> Enlace a la página del INTA Argentina</a>    
+            </section>
+
+            <section>
+                <h3>Material de descarga:</h3>
+                <a href="inta_-calendario_de_siembra.PDF" download="inta_-calendario_de_siembra">Descargar calendario de siembra INTA</a>
+            </section>
+        
+        </aside>
+
+       
+    </main>
+
+    <footer>
+
+        
+        <iframe src="https://plantnet.org/" width = "500" height="500"></iframe>
+
+        <br>
+        <br>
+        <div class="container"> <!-- Flex container -->
+            <div class="item item-1">
+                <h4>Dónde estamos</h4>
+                <b>Viamonte 1212 (1824) Lanús Oeste, Bs As. Argentina</b></div> <!-- Flex items -->
+            <div class="item item-2"><h4>Contacto</h4>
+                    <b>viverosdelsur@gmail.com</b>
+                    <b>+54 (011) 4244-8888</b>
+                </div>
+            <div class="item item-3"><h4>Horario de atención</h4>
+                    <b>Lunes a sábados de 9 a 17 hs</b></div>
+            </div>
+    </footer>
+    <script src="JS/index.js"></script>
+</body>
+</html>
